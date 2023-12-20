@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20231220 15:52:53.179" rpa="false" schemaversion="4">
+<suite id="s1" name="Hello" source="C:\Users\nlb\Workspace\RobotFramework\hello.robot">
+<test id="s1-t1" name="Deve retornar mensgaem" line="5">
+<kw name="Hello Robot" library="hello">
+<var>${resultado}</var>
+<msg timestamp="20231220 15:52:53.193" level="INFO">${resultado} = Hello Robot Recycling</msg>
+<status status="PASS" starttime="20231220 15:52:53.193" endtime="20231220 15:52:53.193"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${resultado}</arg>
+<arg>Hello Robot Recycling</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20231220 15:52:53.194" endtime="20231220 15:52:53.194"/>
+</kw>
+<status status="PASS" starttime="20231220 15:52:53.193" endtime="20231220 15:52:53.194"/>
+</test>
+<status status="PASS" starttime="20231220 15:52:53.180" endtime="20231220 15:52:53.194"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Hello">Hello</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
